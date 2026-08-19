@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Vends-moi ça",
+    "slug": "vends-moi-ca",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#6C5CE7"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.vendsmoi.ca",
+      "infoPlist": {
+        "NSCameraUsageDescription": "Prenez en photo vos objets à vendre",
+        "NSPhotoLibraryUsageDescription": "Sélectionnez des photos de vos objets"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#6C5CE7"
+      },
+      "package": "com.vendsmoi.ca"
+    },
+    "plugins": [
+      ["expo-camera", { "cameraPermission": "Prenez en photo vos objets" }],
+      ["expo-image-picker", { "photosPermission": "Accédez à vos photos" }]
+    ]
+  }
+}
