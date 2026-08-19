@@ -1,0 +1,18 @@
+Pour les fichiers restants :
+src/hooks/useCamera.ts
+src/hooks/useAnalysis.ts
+src/hooks/useSubscription.ts
+src/components/PlatformSelector.tsx
+src/components/LoadingAnimation.tsx
+src/components/PremiumBadge.tsx
+src/components/ResultCard.tsx
+src/navigation/AppNavigator.tsx
+src/screens/HomeScreen.tsx
+src/screens/CameraScreen.tsx
+src/screens/ResultScreen.tsx
+src/screens/HistoryScreen.tsx
+src/screens/PaywallScreen.tsx
+src/screens/SettingsScreen.tsx
+
+→ Copie le code depuis ma réponse précédente
+  "Lance le projet" pour chacun de ces fichiers
